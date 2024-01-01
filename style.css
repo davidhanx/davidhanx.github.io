@@ -99,13 +99,13 @@
 	
 	#c_biography{
 		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
 		padding-left: 10px;
 		padding-right: 10px;
 		width: 580px;
-		height: 350px;
+		height: 300px;
 		float: left;
 		/* background-color: red; */
 	}
