@@ -3,6 +3,10 @@
 		background-color: #ffffff;
 		/*padding-top:160px;*/
 	}
+	.no_wrap {
+		white-space: nowrap;
+	}
+	
 	h1{
 		margin: 0px;
 		font-family: Times, Times New Roman, serif;
@@ -40,7 +44,7 @@
 
 	.content_home {
 		position: relative;
-		width: 1000px;
+		width: 1100px;
 		line-height:1.5;
 		margin-left: auto;
 		margin-right: auto;
@@ -167,7 +171,7 @@
 	}
 
 	#c_info{
-		margin-top: 0px;
+		margin-top: 50px;
 		margin-bottom: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -434,7 +438,9 @@
 		width: auto;
 		height: 200px;
 	}
-
+	.image_col, .text_col {
+		flex: 1; /* 两栏各占一半空间 */
+	}
 	.small_font{
 		font-size: 0.8em;
 		line-height: 0.4;

@@ -19,7 +19,7 @@
 <!-------------------------------------------------- Header -------------------------------------------------->
 <div id="header">
 	<h1> Xinyang Han </h1>
-	<h2>Computer Vision/Computer Graphics/Deep Learning</h2>
+	<h2>Computer Vision / Machine Learning / Multimodal</h2>
 </div><!-- Header -->
 
 <!-------------------------------------------------- Navbar -------------------------------------------------->
@@ -28,8 +28,9 @@
 			<button class="btn active" onclick="window.location.href = './index.html#content_home';">Home</button>
 			<button class="btn" onclick="window.location.href = './index.html#content_project';">Research</button>
 			<button class="btn" onclick="window.location.href = './index.html#content_exp';">Experience</button>
-			<button class="btn" onclick="window.location.href = './resource/Xinyang_Han_CV.pdf'; target='_blank'; ">CV</button>
-			<button class="btn" onclick="window.location.href = './index.html#c_contact_biography';">Contact</button>
+			<button class="btn" onclick="window.location.href = './resource/Xinyang_CV_.pdf'; target='_blank'; ">CV</button>
+			<!-- <button class="btn" onclick="window.location.href = './index.html#c_contact_biography';">Contact</button> -->
+			<button class="btn" onclick="window.location.href = 'mailto:hanxinyang66';">Contact</button>
 			<!-- <a href="./index.html#content_home" class="active">Home</a>  -->
 			<!-- <a href="./index.html#content_project">Research</a> -->
 			<!-- <a href="./index.html#content_exp">Experience</a> -->
@@ -64,13 +65,17 @@
 			<strong id="c_font1">Hello,</strong><br>
 			<span class="c_font2">a bit about me:</span><br>
 			<p class="c_font3">
-				I am a concurrent student at UC Berkeley working with Angjoo Kanazawa, and an undergraduate an UCAS, where I am happy to work with Prof. Lin Gao and Prof. Shuqiang Jiang. 
+				I am a research assistant at the Berkeley Artificial Intelligence Research (<a style="color:#0088d2;" href="https://bair.berkeley.edu/">BAIR</a>) Lab working with <a style="color:#0088d2;" href="http://people.eecs.berkeley.edu/~kanazawa">Angjoo Kanazawa</a>, <a style="color:#0088d2;" href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> and <a style="color:#0088d2;" href="https://www.adamyala.org/">Adam Yala</a>. 
+			</p>
+			<p class="c_font3">I dream of enabling intelligent agents to interact and evolve in open-set 4D world. This involves topics like: 
+				<ol style="padding-left: 25px;line-height: 1.5em">
+					<li style="font-size: 15px; font-family: Georgia, serif;">Foundational vision models.</li>
+					<li style="font-size: 15px; font-family: Georgia, serif;">Efficient perception, reconstruction, and generation of 4D scenes.</li>
+					<li style="font-size: 15px; font-family: Georgia, serif;">Embodied agents with multimodal understanding and planning at scale.</li>
+				</ol>
 			</p>
 			<p class="c_font3">
-				My research intereset lies in 2D/3D generative models, self-supervised learning and large multimodal models.
-			</p>
-			<p class="c_font3">
-				I am passionate about digital art, hiking and making friends.
+				Previously, I am happy to work at <a style="color:#0088d2;" href="http://www.ict.ac.cn/">ICT-CAS</a> with <a style="color:#0088d2;" href="http://geometrylearning.com/lin/">Lin Gao</a> and <a style="color:#0088d2;" href="https://vipl.ict.ac.cn/en/index.html">VIPL</a> with <a style="color:#0088d2;" href="https://scholar.google.com/citations?user=4Rvn-ykAAAAJ&hl=en">Shuqiang Jiang</a>.
 			</p>
 		</div>
 
@@ -112,7 +117,7 @@
 			<!-- CONTENT TODO -->
 			<div class="thumbnail">
 				<img src="img/email_icon.jpg" id="button0" alt="email_button" >
-				<div class="overlay" onclick="window.location.href = 'hanxinyang20a@mails.ucas.ac.cn';" >
+				<div class="overlay" onclick="window.location.href = 'hanxinyang66@gmail.com';" >
 					<p>Email to<br>Say Hi</p>
 				</div>
 			</div> <!-- .thumbnail -->
@@ -120,7 +125,7 @@
 
 			<div class="thumbnail">
 				<img src="img/cv_icon.jpg" id="button1" alt="cv_button" >
-				<div class="overlay"  onclick="window.location.href='./resource/Xinyang_Han_CV.pdf'; " >
+				<div class="overlay"  onclick="window.location.href='./resource/Xinyang_CV_.pdf'; " >
 					<p>CV/<br>Resume</p>
 				</div>
 			</div> <!-- .thumbnail -->
@@ -163,9 +168,9 @@
 			</div>  .thumbnail -->
 
 			<div class="thumbnail">
-				<img src="img/art_icon.jpg" id="button6" alt="art_button">
+				<img src="img/github.png" id="button6" alt="art_button">
 				<div class="overlay" onclick="window.location.href = './index.html#content_home';" >
-					<p>Arts<br>Todo...</p>
+					<p>Github</p>
 				</div>
 			</div> <!-- .thumbnail -->
 			
@@ -176,11 +181,24 @@
 </div><!-- Content Home-->
 
 <!-------------------------------------------------- Content Project -------------------------------------------------->
+
 <div class="content">
 
 	<div class="c_public_wrapper" id="content_project">
 		<div class="c_font1_1">Research Paper</div>
-		
+		<div class="c_public">
+			<div class="disp_wrapper">
+					<img src="./img/u2seg_teasor.jpg" class="project_img" title="ShapeCrafter Structure">
+			</div>
+			<strong>Unsupervised Universal Image Segmentation</strong>
+			<br><em> Dantong Niu*, Xudong Wang*, <strong>Xinyang Han*</strong>, Long Lian, Roei Herzig, Trevor Darrell. </em>
+			<br>Preprint 2023</em>
+			<br><em class="small_font">We present U2Seg, a unified framework for Unsupervised Universal image Segmentation that consistently outperforms previous state-of-the-art methods designed for individual tasks.</em>
+			<br><a href="https://arxiv.org/abs/2312.17243" class="small_font">[Paper]</a>
+			<a href="https://u2seg.github.io/" class="small_font">[Project]</a>
+			<a href="https://github.com/u2seg/U2Seg" class="small_font">[Code]</a>
+				
+		</div>
 		<div class="c_public">
 			<div class="disp_wrapper">
 				<!-- <a href="./img/HRFormer.png" data-lightbox="project1" data-title="HRFormer2 Structure"> -->
@@ -190,26 +208,32 @@
 			</div>
 			<strong>DeepFaceReshaping: Interactive Deep Face Reshaping via Landmark Manipulation</strong>
 			<br><em>Shu-Yu Chen, Yue-Ren Jiang, Hongbo Fu, <strong>Xinyang Han</strong>, Zitao Liu, Rong Li, Lin Gao. </em>
-			<br>International Conference on Computational Visual Media (Recommended to <strong>Computational Visual Media Journal</strong>), <strong>2023</strong></em>
-			<br><em class="small_font">Our motivation is to manipulate the shape of human face naturally and easily. So we designed a two stage pipeline, which first deform the facial mesh and then generate a living new face accordingly.</em>
-			<!-- <br><a href="https://arxiv.org/abs/2207.09446" class="small_font">[paper]</a>
-			<a href="https://ivl.brown.edu/projects/shapecrafter" class="small_font">[project]</a>	-->
+			<br>International Conference on Computational Visual Media (Recommended to <strong>Computational Visual Media Journal 2023</strong>)</em>
+			<br><em class="small_font">Developed DeepFaceReshaping, integrating landmark-driven techniques for face reshaping in deep learning
+				models.</em>
+			<br><a href="https://arxiv.org/abs/2207.09446" class="small_font">[Paper]</a> <a href="http://geometrylearning.com/video/CVM_Supplementary-Video-226.mp4" class="small_font">[Video]</a> <a href="https://www.youtube.com/watch?v=WnUbygW4vIg" class="small_font">[YouTube]</a> <a href="http://geometrylearning.com/video/CVM_Supplementary-Video-226.mp4" class="small_font">[Bilibili]</a>
+			<!-- <a href="https://ivl.brown.edu/projects/shapecrafter" class="small_font">[project]</a>	 -->
 		</div>
 
 		<div class="c_public">
-			<div class="disp_wrapper">
-				<!-- <a href="./img/HRFormer.png" data-lightbox="project1" data-title="HRFormer2 Structure"> -->
+			<div class="image_col">
+				<div class="disp_wrapper">
 					<img src="./img/ai_prediction.png" class="project_img" title="ShapeCrafter Structure">
-				<!-- </a> -->
-				<!-- <p class="small_font">click image for details</p> -->
+				</div>
 			</div>
-			<strong>A Survey on Future Action Anticipation in Videos.</strong>
-			<br><em>Tianyu Zhang, Weiqing Min, <strong>Xinyang Han</strong>, Shuqiang Jiang, Yong Rui. </em>
-			<br><strong>Chinese Journal of Computers 2023</strong></em>
-			<br><em class="small_font">To help researches have a more comprehensive understanding of action prediction through videos, we summarized the datasets and methods used in this field.</em>
-			<!-- <br><a href="https://arxiv.org/abs/2207.09446" class="small_font">[paper]</a>
-			<a href="https://ivl.brown.edu/projects/shapecrafter" class="small_font">[project]</a>	-->
+			<div class="text_col">
+				<strong>A Survey on Future Action Anticipation in Videos.</strong>
+				<br><em>Tianyu Zhang, Weiqing Min, <strong>Xinyang Han</strong>, Shuqiang Jiang, Yong Rui.</em>
+				<br><strong>Chinese Journal of Computers 2023</strong>
+				<br>
+				<span class="no_wrap">
+					<em class="small_font">Summarized the framework for video action prediction, differentiating short-term and long-term modalities.</em>
+					<br><a href="https://arxiv.org/abs/2207.09446" class="small_font">[paper]</a>
+				</span>
+			</div>
 		</div>
+		
+		
 
 	</div>
 	<div class="clearfloat"></div>
@@ -229,8 +253,8 @@
 				<img class="schoollogo" src="./img/Seal_of_University_of_California,_Berkeley.svg.png" alt="BROWN Logo" />
 			</div>
 			<ul>
-			<li>Title: Exchanging Student</li>
-			<li>Concentration: 3D Vision, Graphics and Diffusion model</li>
+			<li>Title: Concurrent Student</li>
+			<li>Concentration: 3D Vision, Generative modeling,</li>
 			</ul>
 		</div>
 
@@ -265,7 +289,7 @@
 
 		</div> -->
 
-		<div class="c_education">
+		<!-- <div class="c_education">
 			<strong>Nantong High School</strong>
 			<em class="dates">Sept. 2011-Jul. 2017</em>
 			<div class="clearfloat"></div>
@@ -274,7 +298,6 @@
 			</div>
 			<ul>
 			<li>Title: Student.</li>
-			<!-- <li>GPA: 3.9/4.0.</li> -->
 			<li><em>Outstanding Student Worker.</em> </li>
 			<li><em></em>Excellent Student Award.</em></li>
 			<li><em></em>Fu Hua Scholarship.</em></li>
@@ -282,7 +305,7 @@
 			<li><em></em>Nan Xian Scholarship.</em></li>
 			</ul>
 
-		</div>
+		</div> -->
 	</div>
 
 	<div class="c_intern_wrapper">
@@ -290,8 +313,8 @@
 		
 
 		<div class="c_intern">
-				<strong>Research intern: Institute of Computing Technology, CAS.</strong>
-					<em class="dates">Jan. 2022 – Present</em>
+				<strong>Research assistant: Institute of Computing Technology, CAS.</strong>
+					<em class="dates">Jan. 2022 – Sep 2023</em>
 				<br><br><em>Advisor: Prof. Lin Gao</em> <em class="dates">Beijing, China</em>
 				<ul>
 					<li>Video editing with NeRF.</li>
@@ -300,7 +323,7 @@
 		</div>
 
 		<div class="c_intern">
-			<strong>Research intern: Institute of Computing Technology, CAS.</strong>
+			<strong>Research assistant: Institute of Computing Technology, CAS.</strong>
 				<em class="dates">June. 2021 – June. 2022</em>
 			<br><br><em>Advisor: Prof. Shuqiang Jiang</em> <em class="dates">Beijing, China</em>
 			<ul>
