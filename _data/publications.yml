@@ -1,0 +1,67 @@
+main:
+  - title: "Agents’ Last Exam"
+    authors: "Yiyou Sun&Dagger;, <strong>Xinyang Han&Dagger;</strong>, Weichen Zhang&Dagger;, Yuanbo Pang&Dagger;, Tianyu Wang, et al."
+    conference_short: "Preprint"
+    conference: "arXiv preprint, 2026"
+    image: ./assets/img/pub/ale_wheel.png
+    pdf: "https://arxiv.org/abs/2606.05405"
+    page: "https://agents-last-exam.org"
+    code: "https://github.com/rdi-berkeley/agents-last-exam"
+
+  - title: "JobBench: Aligning Agent Work With Human Will"
+    authors: "Yuetai Li, Yichen Feng, Zhangchen Xu, Zixian Ma, …, <strong>Xinyang Han</strong>, et al."
+    conference_short: "Preprint"
+    conference: "arXiv preprint, 2026"
+    image: ./assets/img/pub/jobbench_teaser.png
+    pdf: "https://arxiv.org/abs/2605.26329"
+    page: "https://job-bench.github.io/"
+    code: "https://github.com/Job-Bench/job-bench-eval"
+
+  - title: "MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI"
+    authors: "Bohan Lyu, Yucheng Yang, Siqiao Huang, Jiaru Zhang, Qixin Xu, Xinghan Li, <strong>Xinyang Han</strong>, et al."
+    conference_short: "Preprint"
+    conference: "arXiv preprint, 2026"
+    image: ./assets/img/pub/mlsbench_teaser.png
+    pdf: "https://arxiv.org/abs/2605.08678"
+    page: "https://mls-bench.com/"
+    code: "https://github.com/Imbernoulli/MLS-Bench"
+
+  - title: "The More You See in 2D, the More You Perceive in 3D"
+    authors: "<strong>Xinyang Han*</strong>, Zelin Gao*, Angjoo Kanazawa, Shubham Goel&dagger;, Yossi Gandelsman&dagger;"
+    conference_short: "CVPR"
+    conference: "CVPR 2024 (Highlight)"
+    award: "Highlight"
+    image: ./assets/img/pub/sap3d_teaser.jpg
+    pdf: "https://arxiv.org/abs/2404.03652"
+    page: "https://sap3d.github.io/"
+    code: "https://github.com/sap3d/sap3d"
+
+  - title: "Unsupervised Universal Image Segmentation"
+    authors: "Dantong Niu*, Xudong Wang*, <strong>Xinyang Han*</strong>, Long Lian, Roei Herzig, Trevor Darrell"
+    conference_short: "CVPR"
+    conference: "CVPR 2024"
+    image: ./assets/img/pub/u2seg_teasor.jpg
+    pdf: "https://arxiv.org/abs/2312.17243"
+    page: "https://u2seg.github.io/"
+    code: "https://github.com/u2seg/U2Seg"
+
+  - title: "MuNeRF: Robust Makeup Transfer in Neural Radiance Fields"
+    authors: "Yu-Jie Yuan*, <strong>Xinyang Han*</strong>, Yue He, Fang-Lue Zhang, Lin Gao"
+    conference_short: "TVCG"
+    conference: "IEEE TVCG, 2025"
+    image: ./assets/img/pub/munerf_pipeline.png
+    pdf: "https://ieeexplore.ieee.org/document/10269687"
+
+  - title: "DeepFaceReshaping: Interactive Deep Face Reshaping via Landmark Manipulation"
+    authors: "Shu-Yu Chen, Yue-Ren Jiang, Hongbo Fu, <strong>Xinyang Han</strong>, Zitao Liu, Rong Li, Lin Gao"
+    conference_short: "CVM"
+    conference: "Computational Visual Media, 2024"
+    image: ./assets/img/pub/DeepFaceReshaping.png
+    pdf: "https://iccvm.org/2023/papers/s4-1-226-CVMJ.pdf"
+
+  - title: "A Survey on Future Action Anticipation in Videos"
+    authors: "Tianyu Zhang, Weiqing Min, <strong>Xinyang Han</strong>, Shuqiang Jiang, Yong Rui"
+    conference_short: "CJC"
+    conference: "Chinese Journal of Computers, 2023"
+    image: ./assets/img/pub/ai_prediction.png
+    pdf: "http://cjc.ict.ac.cn/online/onlinepaper/zty-202363223621.pdf"
