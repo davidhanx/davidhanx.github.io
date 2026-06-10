@@ -10,20 +10,22 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Lora:wght@500;600;700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 	<style>
 		:root {
-			--ink: #1b1b1b;
-			--muted: #565656;
-			--faint: #6f6f6f;
+			--ink: #16181d;
+			--muted: #54585f;
+			--faint: #82868d;
 			--accent: #003262;      /* Berkeley blue */
-			--accent-soft: #eaf0f6;
+			--accent-soft: #eaf1f7;
 			--gold: #8a6209;
-			--line: #e7e7e7;
+			--gold-soft: #fbf3e0;
+			--line: #ececee;
+			--line-strong: #d9dbdf;
 			--bg: #ffffff;
-			--maxw: 880px;
+			--maxw: 840px;
 		}
 
 		* { box-sizing: border-box; }
@@ -34,10 +36,12 @@
 			margin: 0;
 			background: var(--bg);
 			color: var(--ink);
-			font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-			font-size: 16.5px;
-			line-height: 1.65;
+			font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+			font-size: 16px;
+			line-height: 1.7;
+			letter-spacing: -0.003em;
 			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
 			overflow-wrap: break-word;
 		}
 
@@ -47,138 +51,148 @@
 		.wrap {
 			max-width: var(--maxw);
 			margin: 0 auto;
-			padding: 58px 24px 40px;
+			padding: 76px 28px 60px;
 		}
 
 		/* ---------- Header / profile ---------- */
 		.intro {
 			display: flex;
-			gap: 40px;
-			align-items: flex-start;
+			gap: 44px;
+			align-items: center;
 		}
 		.intro .photo {
-			flex: 0 0 200px;
-			width: 200px;
+			flex: 0 0 184px;
+			width: 184px;
 		}
 		.intro .photo img {
-			width: 200px;
-			height: 200px;
+			width: 184px;
+			height: 184px;
 			object-fit: cover;
 			border-radius: 50%;
-			box-shadow: 0 6px 24px rgba(0,0,0,.12);
+			box-shadow: 0 4px 20px rgba(20,30,50,.14);
 		}
 		.intro .bio { flex: 1; min-width: 0; }
 
 		h1.name {
-			font-family: 'Lora', serif;
-			font-weight: 700;
-			font-size: 2.5rem;
-			line-height: 1.1;
-			margin: 2px 0 6px;
-			letter-spacing: .2px;
+			font-family: 'Newsreader', Georgia, serif;
+			font-weight: 600;
+			font-size: 2.75rem;
+			line-height: 1.04;
+			margin: 0 0 9px;
+			letter-spacing: -.011em;
 		}
 		.tagline {
-			font-size: 1.06rem;
+			font-size: 1.12rem;
 			color: var(--muted);
-			margin: 0 0 4px;
+			margin: 0 0 14px;
 		}
 		.tagline strong { color: var(--ink); }
 		.affil { color: var(--faint); margin: 0 0 16px; font-size: .98rem; }
 
 		.bio p { margin: 0 0 14px; }
 
-		.chips { margin: 4px 0 18px; }
+		.chips { margin: 2px 0 20px; display: flex; flex-wrap: wrap; gap: 8px; }
 		.chip {
-			display: inline-block;
-			font-size: .8rem;
-			letter-spacing: .3px;
+			font-size: .78rem;
+			letter-spacing: .2px;
 			color: var(--accent);
 			background: var(--accent-soft);
 			border-radius: 999px;
 			padding: 4px 12px;
-			margin: 0 7px 7px 0;
+			font-weight: 500;
 		}
 
 		/* ---------- Link buttons ---------- */
-		.links { margin-top: 6px; }
+		.links { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 4px; }
 		.links a {
 			display: inline-flex;
 			align-items: center;
 			gap: 7px;
-			border: 1px solid var(--line);
-			border-radius: 9px;
-			padding: 7px 13px;
-			margin: 0 8px 8px 0;
+			border: 1px solid var(--line-strong);
+			border-radius: 8px;
+			padding: 6px 13px;
 			color: var(--ink);
-			font-size: .92rem;
-			transition: all .15s ease;
+			font-size: .88rem;
+			font-weight: 500;
+			transition: border-color .15s, color .15s, background .15s, transform .15s;
 		}
 		.links a:hover {
 			text-decoration: none;
 			border-color: var(--accent);
 			color: var(--accent);
 			background: var(--accent-soft);
+			transform: translateY(-1px);
 		}
 		.links a i { color: var(--accent); font-size: 1rem; }
 
 		/* ---------- Sections ---------- */
-		section { margin-top: 46px; }
+		section { margin-top: 56px; }
 		h2.section-title {
-			font-family: 'Lora', serif;
-			font-size: 1.5rem;
+			font-family: 'Newsreader', Georgia, serif;
+			font-size: 1.55rem;
 			font-weight: 600;
-			margin: 0 0 22px;
-			padding-bottom: 8px;
-			border-bottom: 2px solid var(--line);
+			letter-spacing: -.01em;
+			margin: 0 0 20px;
+			padding-bottom: 9px;
+			border-bottom: 1px solid var(--line-strong);
 		}
 
 		/* ---------- News ---------- */
 		.news { list-style: none; padding: 0; margin: 0; }
 		.news li {
 			display: flex;
-			gap: 16px;
-			padding: 5px 0;
-			font-size: .98rem;
+			gap: 18px;
+			padding: 6px 0;
+			font-size: .97rem;
 		}
 		.news .when {
-			flex: 0 0 58px;
+			flex: 0 0 50px;
 			color: var(--gold);
-			font-weight: 700;
-			font-size: .9rem;
-			padding-top: 1px;
+			font-weight: 600;
+			font-size: .86rem;
+			font-variant-numeric: tabular-nums;
+			padding-top: 2px;
 		}
 		.news .what { color: var(--muted); }
-		.news .what a { font-weight: 700; }
+		.news .what a { font-weight: 600; color: var(--ink); }
+		.news .what a:hover { color: var(--accent); }
 
 		/* ---------- Publications ---------- */
 		.pub {
 			display: flex;
-			gap: 26px;
-			padding: 20px 0;
+			gap: 30px;
+			padding: 24px 0;
 			border-bottom: 1px solid var(--line);
+			align-items: flex-start;
 		}
 		.pub:last-child { border-bottom: none; }
 		.pub .thumb {
-			flex: 0 0 230px;
-			width: 230px;
+			flex: 0 0 198px;
+			width: 198px;
 		}
 		.pub .thumb img {
 			width: 100%;
 			height: auto;
-			border-radius: 9px;
+			border-radius: 8px;
 			border: 1px solid var(--line);
 			background: #fafafa;
 			display: block;
+			transition: transform .2s, box-shadow .2s;
+		}
+		.pub .thumb img:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 7px 20px rgba(20,30,50,.11);
 		}
 		.pub .meta { flex: 1; min-width: 0; }
 		.pub .ptitle {
-			font-family: 'Lora', serif;
+			font-family: 'Newsreader', Georgia, serif;
 			font-weight: 600;
-			font-size: 1.12rem;
-			line-height: 1.3;
-			margin: 0 0 5px;
+			font-size: 1.22rem;
+			line-height: 1.28;
+			margin: 0 0 6px;
+			letter-spacing: -.006em;
 		}
-		.pub .authors { font-size: .95rem; color: var(--muted); margin: 0 0 3px; }
+		.pub .authors { font-size: .93rem; color: var(--muted); margin: 0 0 5px; line-height: 1.55; }
 		.pub .authors .me { color: var(--ink); font-weight: 700; }
 		.pub .venue {
 			font-size: .92rem;
@@ -186,18 +200,18 @@
 		}
 		.pub .venue .tag {
 			display: inline-block;
-			font-size: .76rem;
-			font-weight: 700;
-			letter-spacing: .4px;
+			font-size: .72rem;
+			font-weight: 600;
+			letter-spacing: .3px;
 			color: var(--accent);
 			background: var(--accent-soft);
-			border-radius: 6px;
+			border-radius: 5px;
 			padding: 2px 8px;
 			margin-right: 8px;
 		}
 		.pub .venue .hl {
 			color: var(--gold);
-			background: #fbf2dd;
+			background: var(--gold-soft);
 		}
 		.pub .venue .vtext { color: var(--faint); font-style: italic; }
 		.pub .blurb { font-size: .92rem; color: var(--muted); margin: 0 0 10px; }
@@ -216,8 +230,8 @@
 			gap: 16px;
 			flex-wrap: wrap;
 		}
-		.entry .org { font-weight: 700; font-size: 1.04rem; }
-		.entry .dates { color: var(--faint); font-size: .9rem; white-space: nowrap; }
+		.entry .org { font-weight: 600; font-size: 1.04rem; }
+		.entry .dates { color: var(--faint); font-size: .88rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
 		.entry .role { color: var(--muted); margin: 1px 0 0; }
 		.entry ul { margin: 6px 0 0; padding-left: 20px; color: var(--muted); font-size: .95rem; }
 		.entry ul li { margin: 2px 0; }
@@ -255,13 +269,10 @@
 		</div>
 		<div class="bio">
 			<h1 class="name">Xinyang Han</h1>
-			<p class="tagline"><strong>AI PhD</strong> @ University of California, Berkeley</p>
-			<p class="affil">Berkeley Artificial Intelligence Research (BAIR) Lab</p>
+			<p class="tagline"><strong>AI PhD</strong> @ <a href="https://bair.berkeley.edu/">BAIR</a></p>
 
-			<p>I am an AI PhD at UC Berkeley, affiliated with the
-				<a href="https://bair.berkeley.edu/">BAIR</a> Lab.
-				My research builds and evaluates AI agents that act reliably in the real world,
-				including high-stakes domains such as health.</p>
+			<p>I build AI agents that act reliably in the real world &mdash; and design the evaluations
+				that reveal whether they truly do, particularly in high-stakes domains such as health.</p>
 
 			<div class="chips">
 				<span class="chip">AI Agent</span>
@@ -272,7 +283,6 @@
 
 			<div class="links">
 				<a href="mailto:hanxinyang@berkeley.edu"><i class="fa-solid fa-envelope"></i> Email</a>
-				<a href="resource/Xinyang_CV_.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> CV</a>
 				<a href="https://scholar.google.com/citations?user=HjmxmJoAAAAJ&amp;hl=en" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
 				<a href="https://github.com/XinyangHan" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
 				<a href="https://www.linkedin.com/in/david-xinyang-han-313bba265/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
@@ -285,7 +295,7 @@
 		<h2 class="section-title">News</h2>
 		<ul class="news">
 			<li><span class="when">2026</span><span class="what"><a href="https://arxiv.org/abs/2606.05405">Agents' Last Exam</a> is out &mdash; a living benchmark for long-horizon, economically valuable agent tasks.</span></li>
-			<li><span class="when">2026</span><span class="what"><a href="https://arxiv.org/abs/2605.26329">JobBench</a> and <a href="https://arxiv.org/abs/2605.08678">MLS-Bench</a> released, studying what agents should do and whether they can build better AI.</span></li>
+			<li><span class="when">2026</span><span class="what"><a href="https://arxiv.org/abs/2605.26329">JobBench</a> and <a href="https://arxiv.org/abs/2605.08678">MLS-Bench</a> released &mdash; studying which work people actually want agents to do, and whether agents can build better AI.</span></li>
 			<li><span class="when">2024</span><span class="what"><a href="https://arxiv.org/abs/2404.03652">SAP3D</a> accepted to CVPR 2024 as a <strong>Highlight</strong>.</span></li>
 		</ul>
 	</section>
