@@ -29,4 +29,23 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 
 ## Open Source
 
-- **[MassGen](https://github.com/massgen/MassGen):** contributor to the open-source multi-agent scaling system, which orchestrates frontier models and agents to collaborate, reason, and produce high-quality results.
+<div class="publications">
+<ol class="bibliography">
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/img/massgen_logo.png" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;" alt="MassGen logo">
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://github.com/massgen/MassGen" target="_blank" rel="noopener noreferrer">MassGen: Multi-Agent Scaling System</a></div>
+    <div class="author">Contributor</div>
+    <div class="periodical"><em>Open-source system that orchestrates frontier models and agents to collaborate, reason, and produce high-quality results.</em></div>
+    <div class="links">
+      <a href="https://github.com/massgen/MassGen" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer" style="font-size:12px;">GitHub</a>
+      <a href="https://massgen.ai" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer" style="font-size:12px;">Docs</a>
+    </div>
+  </div>
+</div>
+</li>
+</ol>
+</div>
