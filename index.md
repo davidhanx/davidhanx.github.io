@@ -26,3 +26,7 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 {% include_relative _includes/publications.md %}
 
 <p style="font-size: 13px; color: #888; margin-top: 10px;">* Equal contribution or core contributor &nbsp;&middot;&nbsp; &dagger; Equal advising</p>
+
+## Open Source
+
+- **[MassGen](https://github.com/massgen/MassGen):** contributor to the open-source multi-agent scaling system, which orchestrates frontier models and agents to collaborate, reason, and produce high-quality results.
