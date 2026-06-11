@@ -4,14 +4,6 @@
 <ol class="bibliography">
 
 {% for link in site.data.publications.main %}
-{% if forloop.index == 6 %}
-</ol>
-</div>
-<h2 id="earlier" style="margin: 30px 0px -15px;">Earlier Work</h2>
-<div class="publications">
-<ol class="bibliography">
-{% endif %}
-
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">

@@ -18,7 +18,6 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 - **[Jun 2026]** [Agents’ Last Exam](https://agents-last-exam.org) is out: a living benchmark of long-horizon, economically valuable tasks drawn from real professional work.
 - **[May 2026]** [JobBench](https://job-bench.github.io/) is released, asking which work people actually want to delegate to agents.
 - **[May 2026]** [MLS-Bench](https://mls-bench.com/) is released, testing whether AI systems can build better AI.
-- **[Mar 2025]** [MuNeRF](https://ieeexplore.ieee.org/document/10269687) is published in IEEE TVCG.
 - **[Apr 2024]** [SAP3D](https://sap3d.github.io/) is accepted to CVPR 2024 as a **Highlight**.
 
 {% include_relative _includes/publications.md %}

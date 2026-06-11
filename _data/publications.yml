@@ -44,24 +44,3 @@ main:
     pdf: "https://arxiv.org/abs/2312.17243"
     page: "https://u2seg.github.io/"
     code: "https://github.com/u2seg/U2Seg"
-
-  - title: "MuNeRF: Robust Makeup Transfer in Neural Radiance Fields"
-    authors: "Yu-Jie Yuan*, <strong>Xinyang Han*</strong>, Yue He, Fang-Lue Zhang, Lin Gao"
-    conference_short: "TVCG"
-    conference: "IEEE TVCG, 2025"
-    image: ./assets/img/pub/munerf_pipeline.png
-    pdf: "https://ieeexplore.ieee.org/document/10269687"
-
-  - title: "DeepFaceReshaping: Interactive Deep Face Reshaping via Landmark Manipulation"
-    authors: "Shu-Yu Chen, Yue-Ren Jiang, Hongbo Fu, <strong>Xinyang Han</strong>, Zitao Liu, Rong Li, Lin Gao"
-    conference_short: "CVM"
-    conference: "Computational Visual Media, 2024"
-    image: ./assets/img/pub/DeepFaceReshaping.png
-    pdf: "https://iccvm.org/2023/papers/s4-1-226-CVMJ.pdf"
-
-  - title: "A Survey on Future Action Anticipation in Videos"
-    authors: "Tianyu Zhang, Weiqing Min, <strong>Xinyang Han</strong>, Shuqiang Jiang, Yong Rui"
-    conference_short: "CJC"
-    conference: "Chinese Journal of Computers, 2023"
-    image: ./assets/img/pub/ai_prediction.png
-    pdf: "http://cjc.ict.ac.cn/online/onlinepaper/zty-202363223621.pdf"
