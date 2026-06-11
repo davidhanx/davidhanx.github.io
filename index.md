@@ -22,4 +22,4 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 
 {% include_relative _includes/publications.md %}
 
-<p style="font-size: 13px; color: #888; margin-top: 10px;">* Equal contribution &nbsp;&middot;&nbsp; &Dagger; Core contributor &nbsp;&middot;&nbsp; &dagger; Equal advising</p>
+<p style="font-size: 13px; color: #888; margin-top: 10px;">* Equal contribution or core contributor &nbsp;&middot;&nbsp; &dagger; Equal advising</p>
