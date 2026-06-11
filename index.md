@@ -16,6 +16,7 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 ## News
 
 - **[Jun 2026]** [Agents’ Last Exam](https://agents-last-exam.org) is out: a living benchmark of long-horizon, economically valuable tasks drawn from real professional work.
+- **[Jun 2026]** Agents’ Last Exam is covered by [VentureBeat](https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark) and [Digg](https://digg.com/ai/7f6dnk0l).
 - **[May 2026]** [JobBench](https://job-bench.github.io/) is released, asking which work people actually want to delegate to agents.
 - **[May 2026]** [MLS-Bench](https://mls-bench.com/) is released, testing whether AI systems can build better AI.
 - **[2026]** Glad to serve as the Communications Chair for [CHIL 2026](https://chil.ahli.cc/organizers/).
