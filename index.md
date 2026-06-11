@@ -34,7 +34,7 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/img/massgen.png" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;" alt="MassGen multi-agent session">
+    <img src="./assets/img/massgen.png" class="teaser img-fluid z-depth-1" alt="MassGen multi-agent session">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://github.com/massgen/MassGen" target="_blank" rel="noopener noreferrer">MassGen: Multi-Agent Scaling System</a></div>
