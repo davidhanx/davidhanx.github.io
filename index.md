@@ -18,6 +18,9 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 - **[Jun 2026]** [Agents’ Last Exam](https://agents-last-exam.org) is out: a living benchmark of long-horizon, economically valuable tasks drawn from real professional work.
 - **[May 2026]** [JobBench](https://job-bench.github.io/) is released, asking which work people actually want to delegate to agents.
 - **[May 2026]** [MLS-Bench](https://mls-bench.com/) is released, testing whether AI systems can build better AI.
+- **[2026]** Glad to serve as the Communications Chair for [CHIL 2026](https://chil.ahli.cc/organizers/).
+- **[2026]** Organizing the [Workshop on Agent Behavior](https://www.aiagentbehavior.com/) at COLM 2026.
+- **[2025]** Served as the Logistics Chair for CHIL 2025.
 - **[Apr 2024]** [SAP3D](https://sap3d.github.io/) is accepted to CVPR 2024 as a **Highlight**.
 
 {% include_relative _includes/publications.md %}
