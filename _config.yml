@@ -30,6 +30,9 @@ enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
+visitor_map: true # world-map visitor counter in sidebar (_includes/visitor_map.html)
+
+# Auto Dark Mode
 auto_dark_mode: true
 
 # Font
