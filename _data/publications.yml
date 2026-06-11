@@ -1,6 +1,6 @@
 main:
   - title: "Agents’ Last Exam"
-    authors: "Yiyou Sun*, <strong>Xinyang Han*</strong>, Weichen Zhang*, Yuanbo Pang*, Tianyu Wang, et al."
+    authors: "Yiyou Sun*, <strong>Xinyang Han*</strong>, Weichen Zhang*, Yuanbo Pang*, Tianyu Wang*, Yuhan Cao*, Yixiao Huang*, et al."
     conference_short: "Preprint"
     conference: "arXiv preprint, 2026"
     image: ./assets/img/pub/ale_wheel.png
