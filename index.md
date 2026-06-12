@@ -15,8 +15,8 @@ I am an **AI PhD** at [BAIR](https://bair.berkeley.edu/), UC Berkeley. I design 
 
 ## News
 
-- **[Jun 2026]** Agents’ Last Exam is covered by [VentureBeat](https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark) and [Digg](https://digg.com/ai/7f6dnk0l).
-- **[Jun 2026]** Agents’ Last Exam hits **#1 on [Hugging Face Daily Papers](https://huggingface.co/papers?date=2026-06-09)** and **#1 trending on [alphaXiv](https://www.alphaxiv.org/abs/2606.05405)**.
+- **[Jun 2026]** Agents’ Last Exam is covered by [VentureBeat](https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark), [Don’t Worry About the Vase](https://thezvi.substack.com/p/ai-172-the-first-fable), [AINews](https://news.smol.ai/issues/26-06-09-anthropic-claude-fable-5), and [Digg](https://digg.com/ai/7f6dnk0l).
+- **[Jun 2026]** Agents’ Last Exam is the **#1 paper of the month on [Hugging Face](https://huggingface.co/papers/month/2026-06)** (after **#1 [Daily Paper](https://huggingface.co/papers?date=2026-06-09)**) and **#1 trending on [alphaXiv](https://www.alphaxiv.org/abs/2606.05405)**.
 - **[Jun 2026]** [Agents’ Last Exam](https://agents-last-exam.org) is out: a living benchmark of long-horizon, economically valuable tasks drawn from real professional work.
 - **[May 2026]** [JobBench](https://job-bench.github.io/) is released, asking which work people actually want to delegate to agents.
 - **[May 2026]** [MLS-Bench](https://mls-bench.com/) is released, testing whether AI systems can build better AI.
