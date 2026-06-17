@@ -19,8 +19,8 @@ main:
 
   - title: "MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI"
     authors: "Bohan Lyu, Yucheng Yang, Siqiao Huang, Jiaru Zhang, Qixin Xu, Xinghan Li, <strong>Xinyang Han</strong>, et al."
-    conference_short: "Preprint"
-    conference: "arXiv preprint, 2026"
+    conference_short: "AI4Math"
+    conference: "AI for Math Workshop, ICML 2026"
     image: ./assets/img/pub/mlsbench_teaser.png
     pdf: "https://arxiv.org/abs/2605.08678"
     page: "https://mls-bench.com/"
